@@ -1,0 +1,73 @@
+body{
+    margin:20px;
+    padding:30px;
+    background-color: rgb(218, 217, 217);
+}
+#slots-List{
+    display: flex;
+    justify-content:space-around;
+}
+.cards {
+    border-radius: 10px;
+    box-shadow: 2px white ;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 253, 250);
+}
+.card:hover {
+    box-shadow: 20px 20px 5px rgb(184, 183, 183);
+}
+
+.available{
+    color: green;
+}
+#meet-Schedule{
+    display: flex;
+    justify-content: space-between;
+}
+.meeting-Times {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.meeting-Times:hover {
+    background-color: #a5a4a4;
+    box-shadow: 20px 10px 5px rgba(0, 0, 0, 0.2);
+}
+#titleMeet{
+    color: rgb(26, 25, 25);
+}
+#my-form {
+    display: grid;
+    justify-content:space-around;
+    gap:10px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+#dropdown-container {
+    margin-top: 20px;
+}
+
+.card-body {
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
